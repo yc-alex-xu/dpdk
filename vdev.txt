@@ -1,0 +1,23 @@
+
+
+
+5. AF_XDP Poll Mode Driver
+AF_XDP is an address family that is optimized for high performance packet processing. AF_XDP sockets enable the possibility for an XDP program to redirect packets to a memory buffer in userspace.
+
+https://doc.dpdk.org/guides/nics/af_xdp.html
+
+
+46. NULL Poll Mode Driver
+NULL PMD is a simple virtual driver mainly for testing. It always returns success for all packets for Rx/Tx.
+
+On Rx it returns requested number of empty packets (all zero). On Tx it just frees all sent packets.
+
+https://doc.dpdk.org/guides/nics/null.html
+
+
+
+53. Soft NIC Poll Mode Driver
+
+https://doc.dpdk.org/guides/nics/softnic.html
+
+
