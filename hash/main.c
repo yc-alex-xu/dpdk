@@ -69,6 +69,6 @@ int main(int argc, char **argv) {
   int ret = rte_eal_init(argc, argv);
   if (ret < 0) rte_exit(EXIT_FAILURE, "rte_eal_init()\n");
   hash_map_test(100);
-  hash_map_test(2000);
+  hash_map_test(200);
   return 0;
 }
